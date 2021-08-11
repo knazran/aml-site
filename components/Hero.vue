@@ -1,21 +1,39 @@
 <template>
-  <transition name="block" enter-active-class="animate__animated animate__bounce">
-    <div class="md:flex font-karla items-center">
-      <div class="flex justify-center md:block mt-0 md:mt-0 mb-4 md:mb-0 px-4">
-        <img class="rounded-full w-48 md:w-64 h-48 md:h-64" src="~/assets/img/portrait.jpg" />
+  <div
+    class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+  >
+    <div class="grid gap-5 row-gap-8 lg:grid-cols-2">
+      <div class="flex flex-col justify-center">
+        <div class="max-w-xl mb-6">
+          <h2
+            class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none"
+          >
+            Hi, my name is<br class="hidden md:block" />
+            <span class="relative px-1">
+              <div
+                class="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-teal-accent-400"
+              ></div>
+              <span class="relative inline-block text-deep-purple-accent-400"
+                >Amirah Syamila</span
+              >
+            </span>
+          </h2>
+          <p class="text-base text-gray-700 md:text-lg">
+            A Chemist with research experience in industrial and
+            academic labs. Trained in varying research topics, including
+            functional coatings, small molecule synthesis and catalysis.
+          </p>
+        </div>
       </div>
-      <div class="flex flex-col space-y-4 pl-6 lg:pl-12 w-full md:w-3/5">
-        <h1
-          class="text-3xl md:text-4xl tracking-wide leading-none font-bold text-primary-700"
-        >Hi, I'm Nazran</h1>
-        <p class="text-xl text-primary-500 leading-snug">
-          I build data products and web apps to solve
-          problems that matter. A serial hackathoner with over 20 participations in the past 4 years.
-        </p>
-        <p class="text-xl text-primary-500">Currently based in Kuala Lumpur 🇲🇾</p>
+      <div>
+        <img
+          class="object-cover w-full h-56 rounded shadow-lg sm:h-96"
+          src="~assets/img/portrait.jpg"
+          alt=""
+        />
       </div>
     </div>
-  </transition>
+  </div>
 </template>
 
 <script>

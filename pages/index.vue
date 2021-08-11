@@ -1,23 +1,19 @@
 <template>
-  <div class="py-8 lg:py-12">
+  <div class="">
     <hero></hero>
-    <blog-section></blog-section>
-    <skill-section></skill-section>
     <project-section></project-section>
-    <div class="mt-20">
+    <!-- <div class="mt-20">
       <contact></contact>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
-import BlogCard from '~/components/BlogCard.vue'
 import Hero from '~/components/Hero.vue'
 import Contact from '~/components/Contact.vue'
 import SkillSection from '~/components/SkillSection.vue'
 import ProjectSection from '~/components/ProjectSection.vue'
-import BlogSection from '~/components/BlogSection.vue'
 import Subheader from '~/components/Subheader'
 
 export default {
@@ -27,12 +23,10 @@ export default {
   },
   components: {
     Logo,
-    BlogCard,
     Hero,
     Contact,
     SkillSection,
     ProjectSection,
-    BlogSection,
     Subheader,
   },
   head() {
@@ -52,16 +46,6 @@ export default {
         },
       ],
     }
-  },
-  computed: {
-    blogPosts() {
-      const blogPost = this.$store.getters.getBlogposts.slice()
-      return blogPost.sort(function (a, b) {
-        // Turn your strings into dates, and then subtract them
-        // to get a value that is either negative, positive, or zero.
-        return new Date(b.date) - new Date(a.date)
-      })
-    },
   },
 }
 </script>

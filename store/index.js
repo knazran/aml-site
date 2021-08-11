@@ -23,16 +23,6 @@ export const getters = {
 
 export const actions = {
   async nuxtServerInit({ commit }) {
-    let blogFiles = await require.context(
-      '~/assets/content/blog/',
-      false,
-      /\.json$/
-    )
-    let blogPosts = blogFiles.keys().map(key => {
-      let res = blogFiles(key)
-      res.slug = key.slice(2, -5)
-      return res
-    })
 
     let projectFiles = await require.context(
       '~/assets/content/projects/',
@@ -45,6 +35,5 @@ export const actions = {
       return res
     })
     await commit('setProjects', projects)
-    await commit('setBlogPosts', blogPosts)
   }
 }
