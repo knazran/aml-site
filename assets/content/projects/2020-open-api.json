@@ -1,8 +1,0 @@
-{
-  "date": "2020-08-22T15:19:56.240Z",
-  "preview_image": "/img/screen-shot-2020-08-23-at-4.05.42-pm.png",
-  "category": "Open Source",
-  "title": "Bank Negara Malaysia (BNM) Open API Python package",
-  "description": "Built an unofficial Python wrapper for BNM's Open API",
-  "body": "> * My first experience of developing and deploying a Python package into PyPI\n> * Utilized the request library in Python to build a simple wrapper to call BNM's Open API\n\nPyPI link: <https://pypi.org/project/openbnmapi/>\n\nGithub link: <https://github.com/knazran/python-openbnmapi>"
-}

@@ -1,8 +1,0 @@
-{
-  "date": "2020-08-23T07:53:07.646Z",
-  "title": "Aspirasi - Labour Market Information (LMI) Open Data Challenge 2020",
-  "category": "Hackathon",
-  "description": "Built 'Aspirasi', a mobile-first platform for fresh graduates to discover their career paths, identify common skill gaps, and be matched with a mentor from the field. Was awarded third place.",
-  "preview_image": "/img/ilmia2.jpeg",
-  "body": "> * Finished 3rd place for Labour Market Information (LMI) Open Data Challenge 2020\n> * Played the role of the developer to build and deploy the web application. Also played the role of the data scientist and analyze the giving dataset to identify opportunities and valuable insight to be displayed in the web application.\n> * The web app was built with Django as the main web framework, Bootstrap & TailwindCSS for styling, and Lottiefiles for crispy, elegant animation.  \n\n  ![](/img/ilmia3.gif)\n\n![](/img/ilmia4.jpeg)\n\n![](/img/ilmia1.jpeg)"
-}

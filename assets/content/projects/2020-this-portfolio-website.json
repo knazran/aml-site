@@ -1,8 +1,0 @@
-{
-  "date": "2020-08-23T15:19:56.240Z",
-  "preview_image": "/img/screen-shot-2020-08-23-at-3.52.20-pm.png",
-  "category": "Web Development",
-  "title": "This Portfolio Website",
-  "description": "This website is built from the ground up by myself, from creating the design in Figma, coding it up using Nuxt, and deploying it on Netlify",
-  "body": "\n\n> * Handled the end-to-end process including the design, translating it into front-end code, integrating it with the content management system (CMS), and deploying it.\n> * Built with NuxtJS, TailwindCSS powered by Netlify CMS."
-}

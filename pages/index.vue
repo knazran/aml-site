@@ -2,17 +2,12 @@
   <div class="">
     <hero></hero>
     <project-section></project-section>
-    <!-- <div class="mt-20">
-      <contact></contact>
-    </div> -->
   </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
 import Hero from '~/components/Hero.vue'
-import Contact from '~/components/Contact.vue'
-import SkillSection from '~/components/SkillSection.vue'
 import ProjectSection from '~/components/ProjectSection.vue'
 import Subheader from '~/components/Subheader'
 
@@ -24,8 +19,6 @@ export default {
   components: {
     Logo,
     Hero,
-    Contact,
-    SkillSection,
     ProjectSection,
     Subheader,
   },
